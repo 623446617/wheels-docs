@@ -7818,10 +7818,10 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-x-wheels@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npm.taobao.org/x-wheels/download/x-wheels-0.1.4.tgz?cache=0&sync_timestamp=1613390313940&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fx-wheels%2Fdownload%2Fx-wheels-0.1.4.tgz#b66e58c0df66d6513562bb19a53d9e6de35254fe"
-  integrity sha1-tm5YwN9m1lE1YrsZpT2ebeNSVP4=
+x-wheels@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npm.taobao.org/x-wheels/download/x-wheels-0.1.6.tgz?cache=0&sync_timestamp=1613551326580&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fx-wheels%2Fdownload%2Fx-wheels-0.1.6.tgz#af4c4d6b501b113318ad8fa06139ffb81fde5b45"
+  integrity sha1-r0xNa1AbETMYrY+gYTn/uB/eW0U=
   dependencies:
     vue "^2.6.12"
     vue-hot-reload-api "^2.3.4"
