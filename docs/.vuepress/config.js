@@ -34,7 +34,16 @@ module.exports = {
                         sidebarDepth: 1,    // 可选的, 默认值是 1
                         children:[
                             '/components/grid',
-                            '/components/layout'
+                            '/components/layout',
+                            '/components/collapse'
+                        ]
+                    },
+                    {
+                        title: '导航',
+                        collapsable: false, // 可选的, 默认值是 true,
+                        sidebarDepth: 1,    // 可选的, 默认值是 1
+                        children:[
+                            '/components/tabs'
                         ]
                     }
                 ]
