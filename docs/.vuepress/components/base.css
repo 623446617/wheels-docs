@@ -1,0 +1,15 @@
+.x-col:nth-child(odd) > div {
+    background-color: rgba(0,153,229,.7);
+}
+
+.x-col:nth-child(even) > div {
+    background-color: rgba(0,153,229,.9);
+}
+
+.x-col > div {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}

@@ -1,4 +1,4 @@
-// import xwheels from 'x-wheels';
+import "./base.css";
 import "x-wheels/dist/index.css";
 
 export default async ({
