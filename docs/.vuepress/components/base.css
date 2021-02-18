@@ -13,3 +13,27 @@
     align-items: center;
     height: 30px;
 }
+
+
+.layout-wrapper {
+    height: 150px;
+}
+
+.header, .footer, .content, .sider {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header, .footer {
+    background: #7dbcea;
+}
+
+.content {
+    background: #108ee9;
+}
+
+.sider {
+    background: #3ba0e9;
+}

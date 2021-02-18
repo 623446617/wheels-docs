@@ -167,5 +167,5 @@
 | offset | 栅格左侧的间隔格数，间隔内不能有栅格 | String \| Number | - |
 | ipad | ≥577px，一般为ipad屏幕尺寸 | Object | - |
 | small-pc | ≥769px，一般为窄屏PC屏幕尺寸 | Object | - |
-| ormal-pc | ≥993px，一般为正常PC屏幕尺寸 | Object | - |
+| normal-pc | ≥993px，一般为正常PC屏幕尺寸 | Object | - |
 | large-pc | ≥1201px，一般为宽屏PC屏幕尺寸 | Object | - |
