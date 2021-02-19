@@ -1,12 +1,3 @@
-# 气泡提示
-
-#### 基础用法
-<br />
-<popover-base />
-<font size=2>目前支持两种触发方式：点击、鼠标悬停。默认是点击。</font>
-
-:::details 点击查看代码
-```vue
 <template>
     <div>
         <x-popover>
@@ -24,5 +15,13 @@
         </x-popover>
     </div>
 </template>
-```
-:::
+
+<script>
+    export default {
+        name: "popover-base"
+    };
+</script>
+
+<style scoped>
+
+</style>
