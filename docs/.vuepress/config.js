@@ -45,6 +45,23 @@ module.exports = {
                         children:[
                             '/components/tabs'
                         ]
+                    },
+                    {
+                        title: '表单',
+                        collapsable: false, // 可选的, 默认值是 true,
+                        sidebarDepth: 1,    // 可选的, 默认值是 1
+                        children:[
+                            '/components/input'
+                        ]
+                    },
+                    {
+                        title: '视图',
+                        collapsable: false, // 可选的, 默认值是 true,
+                        sidebarDepth: 1,    // 可选的, 默认值是 1
+                        children:[
+                            '/components/toast',
+                            '/components/popover'
+                        ]
                     }
                 ]
             }
