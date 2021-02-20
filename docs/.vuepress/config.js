@@ -3,7 +3,7 @@ module.exports = {
     description: '一个好用的UI框架',
     themeConfig: {
         nav: [
-            {text: 'nav1', link: '/'},
+            {text: '首页', link: '/'},
             {text: 'github', link: 'https://github.com/623446617/wheels'}
         ],
         sidebar: [

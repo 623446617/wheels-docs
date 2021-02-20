@@ -4,6 +4,8 @@
 #
 
 <button-base />
+
+:::details 点击查看代码
 ```vue
 <template>
     <div class="button-wrapper">
@@ -23,9 +25,13 @@
     };
 </script>
 ```
+:::
+
 #### loading状态
 #
 <button-click></button-click>
+
+:::details 点击查看代码
 ```vue
 <template>
     <div class="button-wrapper">
@@ -50,11 +56,14 @@
     }
 </script>
 ```
+:::
 
 #### button-group
 #
 
 <button-group></button-group>
+
+:::details 点击查看代码
 ```vue
 <template>
     <div class="button-wrapper">
@@ -75,8 +84,10 @@
     }
 </script>
 ```
+:::
 
 ### API
+#### Button props
 | 属性 | 说明   | 类型 | 默认值 |
 | ----- | --------- | ----------- | ------- |
 | icon | 设置按钮的图标类型 | String | - |
@@ -84,3 +95,7 @@
 | disabled | 设置按钮为禁用状态 | Boolean | false |
 | loading | 设置按钮为加载中状态 | Boolean | false |
 
+#### Button events
+| 事件名 | 说明   | 返回值 |
+| ----- | --------- | ----------- |
+| click | 点击事件 | - |

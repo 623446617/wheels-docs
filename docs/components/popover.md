@@ -1,5 +1,22 @@
 # 气泡提示
 
+::: warning 注意
+<br />
+
+当**按需引入**当前组件时，需要在入口文件 `main.js`中如下配置：
+```javascript {7}
+import Vue from 'vue';
+...
+import "x-wheels/dist/index.css";
+import {XPopover} from 'x-wheels';
+
+Vue.component('x-popover', XPopover);
+Vue.prototype.$XWHEELEVENTBUS = new Vue();
+
+new Vue({...});
+```
+:::
+
 #### 基础用法
 <br />
 <popover-base />
