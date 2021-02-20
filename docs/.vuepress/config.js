@@ -4,7 +4,7 @@ module.exports = {
     themeConfig: {
         nav: [
             {text: 'nav1', link: '/'},
-            {text: 'nav2', link: '/install/'}
+            {text: 'github', link: 'https://github.com/623446617/wheels'}
         ],
         sidebar: [
             {
