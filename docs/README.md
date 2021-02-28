@@ -1,3 +1,3 @@
-# XWheel UI 官网
+# XWheels UI 官网
 
-XWheel UI 是一个好用的UI框架，提供了...... 等常用组件，适合移动端和PC端使用。
+XWheels UI 是一套基于 Vue.js 的开源 UI 组件库，当前仅适合PC端使用。
